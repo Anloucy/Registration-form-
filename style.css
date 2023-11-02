@@ -1,0 +1,36 @@
+body{
+    background: rgb(255, 255, 255);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    padding: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div{
+    background: rgb(255, 255, 255);
+    height: 20px;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid  rgb(175, 238, 250);
+}
+
+input,button{
+    background: none;
+    outline: none;
+    border: none;
+}
+img{
+    position:absolute;
+    left: 160px;
+    top: 415px;
+    height: 30px;
+    width: 30px;
+}
